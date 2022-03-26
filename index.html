@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algocular</title>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <link rel="stylesheet" href="bubble_sort.css" type="text/css">
+</head>
+<body>
+    <section class = "header">Algocular : Bubble Sort</section>
+
+    <div class="slidecontainer">
+        <input type="range" min="1" max="500" value="400" class="slider" id="myRange">
+    </div>
+
+    <section class ="data_container"></section>
+    <section class = "form">
+        <input id="user_array" type="text" name="input_array" placeholder="Enter array elements seperated by comma; Range: 1-100">
+    </section>
+    <div class ="left_side_bar">
+        <p id="left_para_head">Passes</p>
+        <p id="left_side_para"></p>
+    </div>
+    <div class="right_side_bar">
+        <p id="right_para_head">Algorithm</p>
+        <p id="right_side_para_mutable"></p>
+        <p id="right_side_para_algo"></p>
+    </div>
+    <button id = "generate_array" onclick="take_input_array()">Generate New Array</button>   
+    <button id = "sort" onclick="bubble_sort()">Sort</button>
+    
+    <script src="bubble_sort.js"></script>
+</body>
+</html>
