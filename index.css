@@ -1,0 +1,35 @@
+.header
+{
+    margin-top: 20px;
+    margin-right: 20vw;
+    margin-left: 20vw;
+    text-align: center;
+    font-size: 40px;
+    background-color: #266daf;
+    color: white;
+    border-radius: 19px;
+    font-weight: bolder;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body
+{
+    background-color: rgb(216, 188, 145);
+}
+
+img
+{
+    height:370px;
+    width: 420px;
+    border: 5px solid rgb(204, 148, 74);
+    transform: 0.4s;
+}
+
+img:hover
+{
+    height:370px;
+    width: 420px;
+    transform: 0.4s;
+    border: 5px solid rgb(45, 73, 197);
+}
